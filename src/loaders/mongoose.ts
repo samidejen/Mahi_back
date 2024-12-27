@@ -4,7 +4,7 @@ import config from "../config/index";
 
 export default async () => {
   const connection = await mongoose.connect(
-    "mongodb+srv://birhanudejen617:RSKX9XuGZBlzTTpZ@cluster0.8fzsz.mongodb.net/abstore"
+    "mongodb+srv://Sami:Sami@1994@cluster0.0nmsh.mongodb.net/abstore"
   );
   return connection.connection.db;
 };
