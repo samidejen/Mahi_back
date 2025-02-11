@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 
 dotenv.config();
-
+//sami
 export default {
   email: `${process.env.EMAIL}`,
   port: Number(process.env.PORT),
