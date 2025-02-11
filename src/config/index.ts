@@ -12,7 +12,5 @@ export default {
   databaseURL: `${process.env.DATABASE_URL}`,
   ChapaSecretKey: `${process.env.CHAPA_SECRET_KEY}`,
   catagories: ["Man", "Woman"],
-  atlas:`${process.env.DATABASE}`
-  
-  
+  atlas: `${process.env.DATABASE}`,
 };
