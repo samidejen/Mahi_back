@@ -1,11 +1,11 @@
 export function driverAdd(email: string, password: string) {
   return {
-    from: "AB STORE",
+    from: "Mahi STORE",
     to: email,
-    subject: "You Have Been Added To Ab Store.",
+    subject: "You Have Been Added To Mahi Store.",
     html: `<div>
                 <div style="background-color:#0077BD; color:white; padding:5px; text-align:center;border-radius:10px; ">
-                    <h2 >Welcome To Ab Store</h2>
+                    <h2 >Welcome To Mahi Store</h2>
                 </div>
                 <div style="padding:5px;">
                     <p>You have been add as a driver to Ab store.Your sign in credentials are listed below</p>
@@ -24,15 +24,15 @@ export function driverAdd(email: string, password: string) {
 
 export function adminAdd(email: string, password: string) {
   return {
-    from: "AB STORE",
+    from: "Mahi STORE",
     to: email,
-    subject: "You Have Been Added To Ab Store.",
+    subject: "You Have Been Added To Mahi Store.",
     html: `<div>
                 <div style="background-color:#0077BD; color:white; padding:5px; text-align:center;border-radius:10px; ">
-                    <h2 >Welcome To Ab Store</h2>
+                    <h2 >Welcome To Mahi Store</h2>
                 </div>
                 <div style="padding:5px;">
-                    <p>You have been add as a admin to Ab store.Your sign in credentials are listed below</p>
+                    <p>You have been add as a admin to Mahi store.Your sign in credentials are listed below</p>
                     <div>
                         <label style="font-weight:bold">Email: </label>
                         <p>${email}</p>
@@ -48,7 +48,7 @@ export function adminAdd(email: string, password: string) {
 
 export function forgotPassword(email: string, password: string) {
   return {
-    from: "AB STORE",
+    from: "Mahi STORE",
     to: email,
     subject: "One Time Password.",
     html: `<div>
@@ -68,7 +68,7 @@ export function forgotPassword(email: string, password: string) {
 
 export function orderVerification(email: string, key: string) {
   return {
-    from: "AB STORE",
+    from: "Mahi STORE",
     to: email,
     subject: "Order Verification Key.",
     html: `<div>
