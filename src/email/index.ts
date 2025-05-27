@@ -8,7 +8,7 @@ export function driverAdd(email: string, password: string) {
                     <h2 >Welcome To Mahi Store</h2>
                 </div>
                 <div style="padding:5px;">
-                    <p>You have been add as a driver to Ab store.Your sign in credentials are listed below</p>
+                    <p>You have been add as a driver to Mahi store.Your sign in credentials are listed below</p>
                     <div>
                         <label style="font-weight:bold">Email: </label>
                         <p>${email}</p>
